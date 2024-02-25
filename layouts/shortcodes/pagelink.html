@@ -1,0 +1,11 @@
+{{ $arg := .Get 0 }}
+{{ $page := .Site.GetPage $arg }}
+{{ if $page }}
+  {{ $anchor := "" }}
+  {{ if gt (len .Params) 1 }}
+    {{ $anchor = "#" | safeHTMLAttr }}{{ index .Params 1 | safeHTMLAttr }}
+  {{ end }}
+<a href="{{ $page.RelPermalink }}{{ $anchor }}">{{ $page.Title }}</a>
+{{ else }}
+<span>Page not found.</span>
+{{ end }}

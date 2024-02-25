@@ -1,0 +1,281 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PLEXtream – 시작하기</title>
+    <link>https://plextream.github.ioorg/docs/</link>
+    <description>Recent content in 시작하기 on PLEXtream</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    
+	  <atom:link href="https://plextream.github.ioorg/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>서비스 연동</title>
+      <link>https://plextream.github.ioorg/docs/plexervice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://plextream.github.ioorg/docs/plexervice/</guid>
+      <description>
+        
+        
+        &lt;p&gt;플렉스트림은 다양한 플랫폼 서비스를 지원하여 동시 송출하는 스트리머를 보조할 수 있습니다.
+플렉스트림 창의 상단 메뉴에서 &lt;code&gt;연동&lt;/code&gt; 메뉴를 실행하거나, 시스템 트레이 아이콘 메뉴에서 &lt;code&gt;서비스 연동&lt;/code&gt; 메뉴를 실행하면 서비스 연동 창을 열 수 있습니다.&lt;/p&gt;
+&lt;h2&gt;서비스 추가하기&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;서비스-추가하기&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%ec%84%9c%eb%b9%84%ec%8a%a4-%ec%b6%94%ea%b0%80%ed%95%98%ea%b8%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;서비스 연동 창의 
+
+&lt;span class=&#34;material-icons&#34; style=&#34;font-size:13px;&#34;&gt;add&lt;/span&gt;
+ 버튼을 누르면 서비스 URL 창이 표시됩니다. 연동할 서비스의 URL을 입력해주세요.
+&lt;img src=&#34;service-url.png&#34; alt=&#34;서비스 URL 입력 창&#34; loading=&#34;lazy&#34; /&gt;
+입력하는 URL은 연동하는 플랫폼의 방송국 또는 채널 주소입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;아프리카TV 방송국: &lt;code&gt;https://bj.afreecatv.com/사용자ID&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;치지직 채널: &lt;code&gt;https://chzzk.naver.com/사용자해시&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;트위치 채널: &lt;code&gt;https://www.twitch.tv/사용자ID&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;유튜브 채널: &lt;code&gt;https://www.youtube.com/@채널핸들&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;서비스가 추가되면 목록에서 추가된 서비스가 플랫폼 아이콘과 함께 표시됩니다.
+각 항목에 대해서 다음과 같은 버튼을 이용할 수 있습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;준비중입니다.&lt;/p&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>챗박스 관리</title>
+      <link>https://plextream.github.ioorg/docs/plexchatbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://plextream.github.ioorg/docs/plexchatbox/</guid>
+      <description>
+        
+        
+        &lt;p&gt;플렉스트림은 연동된 서비스의 채팅을 모아서 보여주는 챗박스를 지원합니다.&lt;/p&gt;
+&lt;h2&gt;준비&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;준비&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%ec%a4%80%eb%b9%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;플렉스트림의 챗박스를 설정하고 OBS를 통해서 송출하기 위해서는 별도의 플러그인 설치가 필요합니다.
+자세한 설치법은 
+
+
+  
+  
+&lt;a href=&#34;https://plextream.github.ioorg/docs/appendix/obs-integration/&#34;&gt;부록: OBS 연동&lt;/a&gt;
+
+ 페이지를 참고해주세요.&lt;/p&gt;
+&lt;h2&gt;챗박스 만들기&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;챗박스-만들기&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%ec%b1%97%eb%b0%95%ec%8a%a4-%eb%a7%8c%eb%93%a4%ea%b8%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;플렉스트림의 상단 메뉴에서 &lt;code&gt;챗박스&lt;/code&gt; 메뉴를 눌러 챗박스 관리 창을 실행합니다.&lt;/li&gt;
+&lt;li&gt;추가 
+
+&lt;span class=&#34;material-icons&#34; style=&#34;font-size:13px;&#34;&gt;add&lt;/span&gt;
+ 버튼을 눌러 챗박스를 추가합니다.
+&lt;ul&gt;
+&lt;li&gt;목록에서 항목을 더블클릭하여 챗박스 이름을 변경할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;목록에서 삭제 
+
+&lt;span class=&#34;material-icons&#34; style=&#34;font-size:13px;&#34;&gt;close&lt;/span&gt;
+ 버튼을 눌러 챗박스를 삭제할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;너비와 높이를 설정합니다.
+&lt;ul&gt;
+&lt;li&gt;너비와 높이에 맞춰서 좌측의 빨간색 테두리의 체크무늬 상자가 실시간으로 변경됩니다. 빨간색 테두리와 체크무늬 배경은 미리보기에서 챗박스의 영역을 표시하기 위한 것으로 실제로 송출 화면에는 출력되지 않습니다.&lt;/li&gt;
+&lt;li&gt;만약 미리보기 창의 크기가 설정한 너비와 높이보다 작으면 비율이 유지된 채로 축소되어 표시됩니다. 실제 크기를 확인하기 위해서는 창의 크기를 충분히 크게 하고 작업해주세요.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;스타일을 선택하고 속성을 설정합니다.
+&lt;ul&gt;
+&lt;li&gt;스타일 별로 설정가능한 속성이 다릅니다. 속성을 변경하면 실시간으로 반영됩니다.&lt;/li&gt;
+&lt;li&gt;속성별로 
+
+&lt;span class=&#34;material-icons&#34; style=&#34;font-size:13px;&#34;&gt;keyboard_arrow_right&lt;/span&gt;
+ 버튼을 누르면 플랫폼별 속성값을 설정할 수 있습니다. &lt;code&gt;(상속)&lt;/code&gt;이라고 표시되어 있는 값은 기본 스타일의 값을 따라갑니다.&lt;/li&gt;
+&lt;li&gt;각 속성에 커서를 올렸을 때 표시되는 
+
+&lt;span class=&#34;material-icons&#34; style=&#34;font-size:13px;&#34;&gt;replay&lt;/span&gt;
+ 버튼을 누르면 초기값으로 돌릴 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;챗박스 테스트&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;챗박스-테스트&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%ec%b1%97%eb%b0%95%ec%8a%a4-%ed%85%8c%ec%8a%a4%ed%8a%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;챗박스 미리보기의 챗박스 테스트를 통해서 테스트 채팅을 생성할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;chatbox-test.png&#34; alt=&#34;챗박스 테스트&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;생성된 채팅은 플렉스트림의 챗박스에 실제로 표시되지만 해당 플랫폼에 표시되지는 않습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;챗박스 송출&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;챗박스-송출&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%ec%b1%97%eb%b0%95%ec%8a%a4-%ec%86%a1%ec%b6%9c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;만든 챗박스는 Spout 인터페이스로 외부 프로그램과 연동이 가능합니다.&lt;/li&gt;
+&lt;li&gt;OBS로 송출하는 경우, 
+
+
+&lt;span&gt;Page not found.&lt;/span&gt;
+
+ 페이지를 참고하여 OBS Spout2 플러그인을 설치합니다.&lt;/li&gt;
+&lt;li&gt;Spout2 Capture 소스로 생성한 챗박스를 불러옵니다.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SpoutSenders&lt;/code&gt;에 해당하는 이름은 챗박스 관리 창의 &lt;code&gt;Spout2&lt;/code&gt; 값을 통해 확인할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;플렉스트림의 챗박스 Spout2 인터페이스 이름은 항상 &lt;code&gt;PLEXChatBox/...&lt;/code&gt;의 형식입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;플렉스트림을 종료하면 챗박스 송출도 함께 중단됩니다. 단, 플렉스트림 창을 닫아도 프로그램이 바로 종료되지 않고 시스템 트레이를 통해서 계속해서 이용가능합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>플렉서베이</title>
+      <link>https://plextream.github.ioorg/docs/plexurvey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://plextream.github.ioorg/docs/plexurvey/</guid>
+      <description>
+        
+        
+        &lt;p&gt;준비중입니다.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>플렉스케치</title>
+      <link>https://plextream.github.ioorg/docs/plexketch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://plextream.github.ioorg/docs/plexketch/</guid>
+      <description>
+        
+        
+        &lt;p&gt;준비중입니다.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>설정</title>
+      <link>https://plextream.github.ioorg/docs/settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://plextream.github.ioorg/docs/settings/</guid>
+      <description>
+        
+        
+        &lt;p&gt;플렉스트림 메인 창의 상단의 
+
+&lt;span class=&#34;material-icons&#34; style=&#34;font-size:13px;&#34;&gt;settings&lt;/span&gt;
+ 버튼 또는 시스템 트레이 아이콘의 설정 메뉴를 통해 설정 창을 열 수 있습니다.
+일부 설정은 플렉스트림을 재시작해야 적용되기 때문에 설정을 수정한 경우에는 플렉스트림을 재시작하는게 좋습니다.&lt;/p&gt;
+&lt;h2&gt;일반 설정&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;일반-설정&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%ec%9d%bc%eb%b0%98-%ec%84%a4%ec%a0%95&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Chrome 경로&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;chrome-path&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#chrome-path&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;플렉스트림의 일부 기능은 사용자의 PC에 설치된 Google Chrome에 의존합니다.
+Google Chrome이 기본 경로에 설치된 경우 자동으로 인식합니다.
+만약 Chrome 경로와 관련한 오류가 발생할 경우, 직접 Chrome 경로를 설정해주세요.&lt;/p&gt;
+&lt;h4&gt;Chrome 경로 찾기&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;chrome-경로-찾기&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#chrome-%ea%b2%bd%eb%a1%9c-%ec%b0%be%ea%b8%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Google Chrome 경로는 다음과 같은 방법으로 찾을 수 있습니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Google Chrome을 실행합니다.&lt;/li&gt;
+&lt;li&gt;작업 관리자를 실행합니다. 작업관리자는 &lt;code&gt;CTRL + Win + ESC&lt;/code&gt; 키 조합으로 열 수 있습니다.&lt;/li&gt;
+&lt;li&gt;작업 관리자에서 Google Chrome 항목을 찾습니다.&lt;/li&gt;
+&lt;li&gt;Google Chrome 항목을 더블클릭하여 펼치면 아래 이미지와 같이 여러개의 Google Chrome 하부 항목들이 표시됩니다. 아무 하부 항목을 우클릭하고 파일 위치 열기 메뉴를 선택합니다.
+&lt;img src=&#34;image.png&#34; alt=&#34;Google Chrome&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;탐색기가 열리고 아래와 같이 &lt;code&gt;chrome.exe&lt;/code&gt;가 표시됩니다.
+&lt;img src=&#34;chrome.png&#34; alt=&#34;chrome.exe&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;탐색기 상단의 경로를 확인하고, 설정창에서 &lt;code&gt;찾아보기...&lt;/code&gt; 버튼으로 해당 경로의 &lt;code&gt;chrome.exe&lt;/code&gt; 파일을 선택합니다.
+&lt;img src=&#34;image-1.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;시스템 트레이&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;시스템-트레이&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%ec%8b%9c%ec%8a%a4%ed%85%9c-%ed%8a%b8%eb%a0%88%ec%9d%b4&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 시작시 자동으로 시스템 트레이에서 실행
+&lt;ul&gt;
+&lt;li&gt;윈도우 시작과 함께 시스템 트레이를 통해 플렉스트림이 자동으로 실행됩니다.
+플렉스트림을 매번 실행하는 것이 번거로운 경우 이 설정을 적용할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 창을 닫으면 시스템 트레이로 최소화
+&lt;ul&gt;
+&lt;li&gt;플렉스트림 창을 닫았을 때 프로그램을 종료하는 대신 시스템 트레이에서 계속해서 실행되도록 합니다.
+실수로 플렉스트림을 종료하는 것을 방지하기 위해서 기본으로 체크되어 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;고급 설정&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;고급-설정&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%ea%b3%a0%ea%b8%89-%ec%84%a4%ec%a0%95&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;NTP 서버&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ntp-서버&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#ntp-%ec%84%9c%eb%b2%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;플렉스트림은 내부적으로 정확한 현재 시간에 의존하는 기능이 많기 때문에 인터넷을 통해 시간을 자동으로 동기화합니다.
+NTP 서버는 정확한 시간 정보를 제공해주는 서버입니다.
+만약 기본값으로 지정된 NTP 서버가 작동하지 않는 경우 직접 NTP 서버를 변경할 수 있습니다.&lt;/p&gt;
+&lt;h2&gt;로컬 서버 포트&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;로컬-서버-포트&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%eb%a1%9c%ec%bb%ac-%ec%84%9c%eb%b2%84-%ed%8f%ac%ed%8a%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;플렉스트림은 사용자의 PC에서 로컬 서버를 가동하여 외부 프로그램 또는 연동 서비스와 통신합니다.
+만약 다른 프로그램이 사용하는 포트 번호와 중복되는 경우, 다른 포트 번호를 지정할 수 있습니다.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>부록: OBS 연동</title>
+      <link>https://plextream.github.ioorg/docs/appendix/obs-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://plextream.github.ioorg/docs/appendix/obs-integration/</guid>
+      <description>
+        
+        
+        &lt;p&gt;다음 기능은 OBS 송출을 위해서 OBS용 Spout2 플러그인 설치가 필요합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+  
+  
+&lt;a href=&#34;https://plextream.github.ioorg/docs/plexchatbox/&#34;&gt;챗박스 관리&lt;/a&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;다운로드 및 설치&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;다운로드-및-설치&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c-%eb%b0%8f-%ec%84%a4%ec%b9%98&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Off-World-Live/obs-spout2-plugin/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS Spout2 플러그인 릴리즈 페이지&lt;/a&gt;에 접속합니다.&lt;/li&gt;
+&lt;li&gt;사용 중인 OBS 버전에 맞는 버전을 확인합니다.
+&lt;ul&gt;
+&lt;li&gt;2024/02/26 시점에서 최신 버전의 OBS를 사용중이라면 OBS 29 플러그인과 호환됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;플러그인 설치 전에 OBS가 실행 중이라면 OBS를 종료합니다.
+&lt;ul&gt;
+&lt;li&gt;OBS를 종료해야하기 떄문에 &lt;strong&gt;송출 도중에 설치할 수 없습니다.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;이하 설명의 파일명은 &lt;strong&gt;OBS 29 플러그인을 가정&lt;/strong&gt;하고 설명합니다. 실제 설치하는 시점의 최신 버전과 다를 수 있습니다.
+&lt;ul&gt;
+&lt;li&gt;기본 경로에 OBS를 설치한 경우에는 &lt;a href=&#34;https://github.com/Off-World-Live/obs-spout2-plugin/releases/download/v1.8/OBS_Spout2_Plugin_Install_v1.8.exe&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS_Spout2_plugin_Install_v1.8.exe&lt;/a&gt; 파일을 다운로드하여 실행하면 설치가 완료됩니다.&lt;/li&gt;
+&lt;li&gt;만약 OBS를 기본 경로가 아닌 다른 곳에 설치한 경우에는, &lt;a href=&#34;https://github.com/Off-World-Live/obs-spout2-plugin/releases/download/v1.8/OBS_Spout2_Plugin_ManualInstall_v1.8.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS_Spout2_Plugin_ManualInstall_v1.8.zip&lt;/a&gt; 파일을 다운로드합니다. 압축을 해제하면 생기는 &lt;code&gt;data&lt;/code&gt;와 &lt;code&gt;obs-plugins&lt;/code&gt; 폴더 OBS가 설치된 폴더에 옮겨주면 설치가 완료됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;플러그인 사용법&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;플러그인-사용법&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%ed%94%8c%eb%9f%ac%ea%b7%b8%ec%9d%b8-%ec%82%ac%ec%9a%a9%eb%b2%95&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;플러그인 설치 후 OBS를 실행하면 추가 가능한 소스 목록에 &lt;code&gt;Spout2 Capture&lt;/code&gt; 항목이 추가됩니다.&lt;/li&gt;
+&lt;li&gt;Spout 출력을 지원하는 프로그램이 켜진 상태에서 &lt;code&gt;Spout2 Capture&lt;/code&gt; 소스를 추가합니다.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SpoutSenders&lt;/code&gt; 항목에서 불러올 항목을 선택합니다. 이름은 프로그램에 따라 다릅니다.
+&lt;ul&gt;
+&lt;li&gt;플렉스트림 챗박스는 &lt;code&gt;PLEXChatBox/...&lt;/code&gt; 형식의 이름을 사용합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Composite mode&lt;/code&gt; 항목을 &lt;code&gt;Default&lt;/code&gt;로 설정합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;정상적으로 OBS 화면에 출력되는 것을 확인합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

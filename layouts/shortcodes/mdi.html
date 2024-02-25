@@ -1,0 +1,5 @@
+{{ $color := "" }}
+{{ if gt (len .Params) 1 }}
+  {{ $color = printf "color: %s;" (index .Params 1) | safeCSS }}
+{{ end }}
+<span class="material-icons" style="font-size:13px;{{ $color }}">{{ .Get 0 }}</span>

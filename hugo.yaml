@@ -1,0 +1,43 @@
+baseURL: https://plextream.github.ioorg/
+languageCode: ko-KR
+defaultContentLanguage: ko
+title: PLEXtream
+theme: hextra
+publishDir: docs
+
+# markup:
+#   # allow raw html
+#   goldmark:
+#     renderer:
+#       unsafe: true
+
+#   # enable hextra syntax highlight
+#   highlight:
+#     noClasses: false
+
+menu:
+  main:
+    # - name: Blog
+    #   pageRef: /blog
+    #   weight: 1
+    - name: 설명서
+      pageRef: /docs
+      weight: 2
+    # - name: About
+    #   pageRef: /about
+    #   weight: 3
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+    logo:
+      path: /images/logo.png
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+
+  app:
+    version: alpha8
+    link: https://github.com/PLEXtream/plextream.github.io/releases/download/v0.0.1/plextream-alpha8.zip
